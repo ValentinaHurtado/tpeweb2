@@ -59,7 +59,7 @@ class ApiController{
         $filterBy=$_GET["filterBy"] ?? null;
         $filterValue=$_GET["filterValue"] ?? null;
         $page=$_GET["page"] ?? 1;
-        $limit=$_GET["limit"] ?? 10;
+        $limit=$_GET["limit"] ?? 15;
 
         $this->verifyGet($orderBy, $orderMode, $filterBy, $filterValue, $page, $limit);
         
