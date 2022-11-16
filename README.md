@@ -15,7 +15,7 @@ Usando endpoint: http://localhost/tpeweb2/api/libros
 - Obtener lista filtrando por una columna de la tabla y un valor de esta: http://localhost/tpeweb2/api/libros?filterBy=anio&filterValue=1939
 - Obtener lista por pagina con un limite de libros en cada una: http://localhost/tpeweb2/api/libros?page=1&limit=10
 - Obtener lista combinando funciones anteriores:
-  - http://localhost/tpeweb2/api/libros?orderBy=anio&orderMode=asc&filterBy=anio&filterValue=1985
+  - http://localhost/tpeweb2/api/libros?orderBy=anio&orderMode=asc&filterBy=autores&filterValue=Stephen-King
   - http://localhost/tpeweb2/api/libros?orderBy=anio&orderMode=asc&page=1&limit=10
   - http://localhost/tpeweb2/api/libros?filterBy=anio&filterValue=1985&page=1&limit=10
   - http://localhost/tpeweb2/api/libros?orderBy=anio&orderMode=asc&filterBy=anio&filterValue=1985&page=1&limit=2
